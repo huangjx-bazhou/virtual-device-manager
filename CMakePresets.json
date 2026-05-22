@@ -1,0 +1,27 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "VS2026",
+            "generator": "Visual Studio 18 2026",
+            "cacheVariables": {
+                "Qt6_DIR": "C:\\Users\\Administrator\\Documents\\Qt\\6.11.1\\msvc2022_64\\lib\\cmake\\Qt6",
+                "QtZeroConf_DIR": "C:\\Users\\Administrator\\Documents\\work\\external\\QtZeroConf\\out\\install\\lib\\cmake\\QtZeroConf"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "Debug",
+            "description": "Debug",
+            "displayName": "Debug",
+            "configurePreset": "VS2026"
+        },
+        {
+            "name": "Release",
+            "description": "Release",
+            "displayName": "Release",
+            "configurePreset": "VS2026"
+        }
+    ]
+}
