@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>虚拟设备管理软件</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QListWidget::item { height: 40px; }</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="1">

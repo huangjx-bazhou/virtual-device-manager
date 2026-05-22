@@ -8,6 +8,9 @@ qt_standard_project_setup()
 
 qt_add_executable(VirtualDeviceManager
     WIN32 MACOSX_BUNDLE
+    DevicePanel.cpp
+    DevicePanel.h
+    DevicePanel.ui
     main.cpp
     MainWindow.cpp
     MainWindow.h
